@@ -123,7 +123,7 @@ public abstract class RemoteEvent implements IMessageHandler<RemoteEventMessage,
 	
 	/**
 	 * <strong>Should only be used on the server!</strong><br>
-	 * Sends data to every client within the dimension with the ID {@code dimensionId} . This uses the network's {@code sendToAllTracking} method. See {@link Entity} for more details.
+	 * Sends data to every client within the dimension with the ID {@code dimensionId} . This uses the network's {@code sendToDimension} method. See {@link Entity} for more details.
 	 * 
 	 * @param dimensionId The ID of the dimension. This is the same as world ID (e.g. overworld is 0, nether is -1, end is 1, etc. for mod worlds)
 	 * @param args The objects being sent to the client
