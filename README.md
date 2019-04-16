@@ -1,5 +1,5 @@
 # MinecraftForge-RemoteEvent
-Implements something similar to Roblox's RemoteEvent class. http://wiki-origin.roblox.com/index.php?title=API:Class/RemoteEvent
+Implements something similar to Roblox's RemoteEvent class. https://developer.roblox.com/api-reference/class/RemoteEvent
 
 This isn't 100% necessary but I thought I'd do it for giggles.
 
